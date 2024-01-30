@@ -11,7 +11,7 @@ import SwiftUI
 struct CWC_Challenge_3App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(counter: 0, increasingChecker: true)
         }
     }
 }
